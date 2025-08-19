@@ -18,7 +18,7 @@ The results are streamed to a **React-based dashboard** in real time via **FastA
 - Users can apply **customizable filters** through the dashboard—such as prior-day high/low taken, relative range expansions etc. —to narrow probabilities to specific structural contexts.  
 - These conditional probabilities are recomputed **live every minute** as new data arrives, ensuring that evolving market structure continuously updates the probability distributions. This provides traders with a dynamic, real-time statistical view of potential outcomes rather than static backtested signals.  
 
-⚠️ For details on how the probability model is constructed, refer to **FILENAME** in the repository.
+⚠️ For details on how the probability model is constructed, refer to **Session Classification Markov Model** in the repository.
 
 ## Features
 

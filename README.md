@@ -74,6 +74,7 @@ http://localhost:5173
 
 ## Development Pipeline
 - Extend coverage to multiple instruments beyond ES (e.g., NQ, CL, FX futures)
+- Introduce an ML-based breakout probability model to estimate the likelihood of RTH highs or lows being broken, conditioned on time-since-extreme features, trend structures, and session context
 - Add support for **multi-factor features** (macro events, VIX, earnings news) in range forecasting models
 - Integrate **alerts & notifications** (email/Slack) for key probability thresholds
 - Develop a **Macro & News Intelligence Layer** that summarizes daily news, global events, and earnings reports using LLMs, providing a complementary fundamental perspective alongside the quantitative probability models

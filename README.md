@@ -32,6 +32,7 @@ The results are streamed to a **React-based dashboard** in real time via **FastA
 - 🖥️ **Frontend Dashboard** – React-based interface auto-launched for visualization (`start.py`)
 
 ## Frontend Preview
+<img width="751" height="363" alt="Screenshot 2025-08-18 163235" src="https://github.com/user-attachments/assets/cb28656c-3e28-41d3-bef2-f6ca2805a3e3" />
 
 ## Project Structure
 - `auth.py` — Authentication with ProjectX API  

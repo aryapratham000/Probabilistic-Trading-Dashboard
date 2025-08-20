@@ -22,14 +22,14 @@ The results are streamed to a **React-based dashboard** in real time via **FastA
 
 ## Features
 
-- 🔑 **Authentication & Config Management** – API login via key/token (`auth.py`, `config.py`)
-- ⏱️ **Historical & Live Data** – 1-minute bar retrieval, higher-timeframe aggregation (`data.py`)
-- 🧩 **Session Classification** – Markov-style color coding across sessions (`candleClassification.py`)
-- 📈 **Daily Levels & VWAP** – automated computation and live updating of pdHigh, pdLow, NY Open, VWAP, etc. (`dailyLevels.py`)
-- 🎲 **Conditional Probabilities** – Live probability filtering with session classification and customizable conditions (`markov_model.py`)
-- 📐 **Range Forecasting** – robust ML models (Huber regression) for **1H & 4H range prediction** (`range_model.py`)
-- ⚡ **Real-Time Backend** – FastAPI WebSocket server delivering structured market snapshots & predictions (`main.py`)
-- 🖥️ **Frontend Dashboard** – React-based interface auto-launched for visualization (`start.py`)
+- **Authentication & Config Management** – API login via key/token (`auth.py`, `config.py`)
+- **Historical & Live Data** – 1-minute bar retrieval, higher-timeframe aggregation (`data.py`)
+- **Session Classification** – Markov-style color coding across sessions (`candleClassification.py`)
+- **Daily Levels & VWAP** – automated computation and live updating of pdHigh, pdLow, NY Open, VWAP, etc. (`dailyLevels.py`)
+- **Conditional Probabilities** – Live probability filtering with session classification and customizable conditions (`markov_model.py`)
+- **Range Forecasting** – robust ML models (Huber regression) for **1H & 4H range prediction** (`range_model.py`)
+- **Real-Time Backend** – FastAPI WebSocket server delivering structured market snapshots & predictions (`main.py`)
+- **Frontend Dashboard** – React-based interface auto-launched for visualization (`start.py`)
 
 ## Frontend Preview
 <img width="751" height="363" alt="Screenshot 2025-08-18 163235" src="https://github.com/user-attachments/assets/cb28656c-3e28-41d3-bef2-f6ca2805a3e3" />
